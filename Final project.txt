@@ -1,0 +1,29 @@
+
+For Complete Understanding, go to my dataset and rough report,it contain dataset columns with little explaination about it.
+
+Libraries used:
+1. Pandas – for working data sets by applying operations like analysing, cleaning, manipulating and exploring data.
+2. Numpy – for working with arrays.
+3. Matplotlib – for creating static and interactive visualization of data set.
+4. Seaborn – for performing exploring analysis on matplotlib data visualization.
+
+
+Given dataset with various columns. Here's a breakdown of the columns:
+
+1.	instant: Index or identifier for each record.
+2.	dteday: Date of the record.
+3.	season: Season (1: spring, 2: summer, 3: fall, 4: winter).
+4.	yr: Year (0: 2011, 1: 2012).
+5.	mnth: Month (1 to 12).
+6.	hr: Hour of the day (0 to 23).
+7.	holiday: Binary indicator (0: non-holiday, 1: holiday).
+8.	weekday: Day of the week (0 to 6, where 0 is Sunday).
+9.	workingday: Binary indicator (0: non-working day, 1: working day).
+10.	weathersit: Weather situation (1: clear, 2: mist, 3: light rain/snow, 4: heavy rain/snow).
+11.	temp: Normalized temperature (0 to 1).
+12.	atemp: Normalized "feels-like" temperature (0 to 1).
+13.	hum: Normalized humidity (0 to 1).
+14.	windspeed: Normalized wind speed (0 to 1).
+15.	casual: Number of casual bike users.
+16.	registered: Number of registered bike users.
+17.	cnt: Total bike users (casual + registered).
